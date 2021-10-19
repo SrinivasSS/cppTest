@@ -1,0 +1,24 @@
+In AP CLi: show running config | inc ale : show ale server info
+In AWMS: Filter out radio mac address. This is the radio mac address seen in locations feeds in feed reader
+or Click on AP and go to Monitor page
+
+sh ap monitor ap-list:
+sh ap arm neightbours: List neighbours. 
+
+
+create new campus
+create new floormap
+create new building
+draw region around actual floor map
+convert region above to wall type drywall
+draw inner regions(ex: around primer, making tape, pro shop section) type cubicle
+draw region around washroom, type cubicle
+mention ceiling height
+AP signal: 10mW, 36Mbps
+change AP name to one in list	
+
+Upgrade AP firmware:
+Download firmware from Aruba Support page into your local storage
+Go to AWMS->Firmware upgrade/reboot option-> Set allow firmware upgrade in monitor only mode to 'Yes', SAVE
+
+
